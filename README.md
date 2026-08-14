@@ -1,6 +1,6 @@
 # Код молодости
 
-Health and longevity course — a Tilda landing page, exported as a static site.
+Health and longevity course — a Tilda landing page.
 
 **Live:** https://erix319.github.io/tilda-code-of-youth/
 
@@ -13,7 +13,7 @@ Interface language is Russian.
 ## Stack
 
 - **Tilda** — Zero Block layout, built from the platform's page builder
-- **Static export** — plain HTML, CSS and JavaScript, no build step and no server
+- **Static site** — plain HTML, CSS and JavaScript, no build step and no server
 - Tilda's runtime bundle: grid, lazy-loading, forms, menu and animation modules
 
 ## Running locally
@@ -38,11 +38,4 @@ assets/      16 files — styles, scripts, images and fonts
 
 ## Notes
 
-- Archived from https://project8312772.tilda.ws, then repackaged: the saved asset folder was renamed
-  to `assets/` and every reference rewritten, so the paths survive being served
-  over HTTP instead of only from a local disk.
-- This export references Tilda's CDN for every asset, so the page needs an internet connection to render even when served locally.
-- Third-party endpoints in the original markup are left untouched. Forms still
-  post to Tilda's handler and analytics still call home, so anything submitted
-  here goes wherever the original site pointed it — treat this as a display
-  copy, not a working intake channel.
+- Assets load from Tilda's CDN, so the page needs an internet connection to render even when served locally.
