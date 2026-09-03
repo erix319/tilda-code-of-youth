@@ -2,7 +2,7 @@
 
 Health and longevity course — a Tilda landing page.
 
-**Live:** https://erix319.github.io/tilda-code-of-youth/
+**Live:** https://pafuluofu-dev.github.io/tilda-code-of-youth/
 
 ## About
 
